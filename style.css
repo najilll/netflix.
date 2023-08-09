@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.main{
+    margin-right: 6%;
+    margin-left: 4%;
+}
+nav img{
+    width: 195px;
+    cursor: pointer;
+    height: 12vh;
+}
+.bgimg{
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+   width: 100%;
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   padding: 10px 8%;
+   position: relative;
+}
+nav select{
+    border-radius: 5px;
+    color: #fff;
+    width: 123px;
+    height: 4vh;
+    font-size: 15px;
+    background-color: transparent;
+}
+nav button{
+    border-radius: 6px;
+    background-color: rgb(247, 21, 21);
+    color: #fff;
+    width: 78px;
+    height: 4vh;
+    position: relative;
+    left: 10px;
+    border: none;
+    font-size: 16px;
+
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+.head1{
+    font-size: 22px;
+    width: 100%;
+    font-weight: bolder;
+    position: relative;
+    top: 153px;
+}
+.head2{
+    position: relative;
+    top: 162px;
+    line-height: 55px;
+    font-weight: 100 !important;
+}
+
+.head2 input{
+    width: 475px;
+    height: 8vh;
+    position: relative;
+    bottom: 34px;
+    right: 11px;
+    background-color: transparent;
+    color: #fff;
+    font-size: larger;
+    border-radius: 4px;
+    border: 1px solid #666;
+}
+.head2 button{
+    background-color: rgb(247, 21, 21);
+    color: #fff;
+    width: 306px;
+    height: 8vh;
+    position: relative;
+    right: -1px;
+    bottom: 31px;
+    border: none;
+    border-radius: 6px;
+    font-size: 31px;
+}
+.icon{
+    position: relative;
+    top: 7px;
+    left: 32px;
+
+}
+.line1{
+   background-color: #2f2e2e;
+    height: 1vh;
+    width: 132%;
+    position: relative;
+    top: 296px;
+    right: 174px;
+}
+.space1{
+    background-color: black;
+    width: 132%;
+    height: 77vh;
+    position: relative;
+    top: 296px;
+    left: -173px;
+    display: flex;
+}
+.head3 h1{
+    font-size: 62px;
+}
+.head3{
+    padding-top: 184px;
+    padding-left: 101px;
+}
+.tv{
+    padding-top: 37px;
+    z-index: 1;
+    
+}
+.video{
+    position: relative;
+    top: 132px;
+    right: 568px;
+    width: 100px;
+}
+.space2{
+    background-color: black;
+    width: 132%;
+    height: 77vh;
+    position: relative;
+    top: 296px;
+    left: -173px;
+    display: flex;
+}
+.head4 h1{
+    font-size: 42px;
+
+}
+.head4{
+    padding-top: 168px;
+    
+}
+.img{
+    padding-top: 22px;
+    padding-left: 155px;
+}
+.add{
+    background-color: black;
+    height: 13vh;
+    width: 341px;
+    position: relative;
+    bottom: 151px;
+    left: 150px;
+    border-radius: 11px;
+    border: 3px solid;
+    color: #2f2e2e;
+}
+.content {
+    position: relative;
+    bottom: 131px;
+    left: 90px;
+    color: #fff;
+}
+.content h4{
+    color: blue;
+}
+
+.add img{
+    width: 64px;
+    height: 10vh;
+    position: relative;
+    top: 11px;
+    left: 8px;
+}
+.download img{
+    position: relative;
+    left: 262px;
+    top: -71px;
+}
+.space3{
+    background-color: black;
+    width: 132%;
+    height: 77vh;
+    position: relative;
+    top: 296px;
+    left: -173px;
+    display: flex;
+   
+}
+.head5 h1{
+    font-size: 42px;
+}
+.head5{
+    width: 100%;
+    position: relative;
+    top: 225px;
+    left: 188px;
+}
+.img2 img{
+    padding-top: 78px;
+    width: 565px;
+    padding-left: 16px;
+    position: relative;
+    left: 162px;
+    z-index: 1;
+}
+.video2 video{
+    position: relative;
+    top: 101px;
+    left: -288px;
+    /* width: 184px; */
+    width: 353px;
+}
+.space4{
+    background-color: black;
+    width: 132%;
+    height: 77vh;
+    position: relative;
+    top: 296px;
+    left: -173px;
+    display: flex;
+    
+}
+.head6{
+    padding-top: 250px;
+
+}
+.head6 h1{
+    font-size: 50px;
+    line-height: 85px;
+
+}
+.img3{
+    padding-top: 59px;
+    padding-left: 75px;
+}
+.space5{
+    background-color: black;
+    width: 100%;
+    height: 162vh;
+}
+.head7{
+    color: #fff;
+    position: relative;
+    top: 360px;
+    font-size: 27px;
+    font-weight: bolder;
+
+}
+.buttons{
+    position: relative;
+    top: 423px;
+   
+}
+.buttons button{
+    height: 11vh;
+    width: 100%;
+    background-color: #2f2e2e;
+    color: #fff;
+    border: none;
+    padding-right: 687px;
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: left;
+}
+.buttons button:hover{
+    background-color: #575555;
+    transition: 0.2s;
+   
+    
+    
+    
+}
+nav button:hover{
+     background-color: rgb(242, 64, 64);
+     transition: 0.2s;
+     
+}
+.head2 button:hover{
+    background-color: rgb(209, 36, 36);
+    transition: 0.2s;
+   
+}
+.head8 h3{
+    padding-top: 461px;
+}
+.head8 input{
+    width: 425px;
+    height: 7vh;
+    position: relative;
+    bottom: -20px;
+    right: 105px;
+    background-color: transparent;
+    color: #fff;
+    font-size: larger;
+    border-radius: 4px;
+    border: 1px solid #666;
+    
+}
+.head8 button{
+    background-color: rgb(247, 21, 21);
+    color: #fff;
+    width: 195px;
+    height: 7vh;
+    position: relative;
+    right: -684px;
+    bottom: 31px;
+    border: none;
+    border-radius: 6px;
+    font-size: 25px;
+
+}
+.line2{
+    background-color: #2f2e2e;
+    height: 1vh;
+    width: 132%;
+    position: relative;
+    top: 65px;
+    right: 174px;
+}
+.space6{
+    background-color: black;
+    width: 132%;
+    height:31vh;
+    position: relative;
+    top: 296px;
+    left: -173px;
+    display: flex;
+    color: #c1c1c1;
+}
+.list1 a{
+    color: #c1c1c1;
+   
+}
+.list2 a{
+    color: #c1c1c1;
+}
+.list3 a{
+    color: #c1c1c1;
+}
+.lists{
+    display: flex;
+    justify-content: space-around;
+    gap: 202px;
+    position: relative;
+    left: 149px;
+    bottom: 183px;
+    line-height: 34px;
+}
+.lists ul{
+    list-style-type: none;
+    
+    
+}
+.head9 p{
+    position: relative;
+    bottom: 134px;
+    left: -159px;
+    width: fit-content;
+}
+.head9 a{
+     color: #c1c1c1;
+}
+.select2 select{
+    border-radius: 5px;
+    color: #fff;
+    width: 123px;
+    height: 4vh;
+    font-size: 15px;
+    background-color: transparent;
+}
+.select2{
+    position: relative;
+    bottom: 138px;
+    left: 159px;
+    width: fit-content;
+    
+}
+.select2 p{
+    position: relative;
+    top: 29px;
+    left: 27px;
+    width:fit-content;
+}
+.head8 button:hover{
+    background-color: rgb(242, 64, 64);
+    transition: 0.2;
+}
+@media screen and (max-width:450px) {
+    nav{
+        width: 100%;
+    }
+    nav img{
+        width: 100px;
+        height: 6vh;
+        position: relative;
+        right: 19px;
+    }
+    .bgimg{
+        height: 74vh;
+        width: 100%;
+    }
+   .head1{
+    position: relative;
+    top: 107px;
+    font-size: 15px;   }
+    .head2{
+        position: relative;
+    top: 140px;
+    line-height: normal;
+    font-size: x-small;
+
+    }
+    .head2 input{
+        width: 307px;
+    height: 7vh;
+    position: relative;
+    top: -11px;
+    }
+    .head2 button{
+        width: 154px;
+    height: 6vh;
+    position: relative;
+    top: -7px;
+    font-size: 18px;
+    }
+.line1{
+    position: relative;
+    top: 160px;
+    width: 571px;
+}
+.space1{
+    flex-direction: column;
+    font-size: xx-small;
+}
+.head3{
+    position: relative;
+    bottom: 309px;
+    left: 97px;
+    line-break: anywhere;
+}
+.head3 h1{
+    font-size: 37px;
+}
+.head3 h2{
+    font-size: 12px;
+    line-break: unset;
+    position: relative;
+    top: 18px;
+}
+.tv img{
+    position: relative;
+    bottom: 323px;
+    left: 118px;
+    height: 51vh;
+}
+.video video{
+    position: relative;
+    left: 720px;
+    bottom: 742px;
+    height: 30vh;
+}
+.img img{
+    height: 50vh;
+    position: relative;
+    bottom: 33px;
+    right: 23px;
+}
+.add img{
+    height: 10vh;
+}
+.add{
+    position: relative;
+    left: -69px;
+    height: 13vh;
+    top: -143px;
+    margin-left: auto;
+}
+.head4{
+    position: relative;
+    bottom: 297px;
+    left: -441px;
+    font-size: xx-small;
+    white-space: nowrap;
+    text-align: center;
+}
+.head4 h1{
+    font-size: 29px;
+}
+.head5{
+    position: relative;
+    top: -123px;
+    white-space: nowrap;
+    left: 209px;
+}
+.head5 h1{
+    font-size: 29px;
+}
+.head5 h2{
+    font-size: 15px;
+    white-space: break-spaces;
+}
+.img2 img{
+    position: relative;
+    bottom: 29px;
+    left: -137px;
+    width: 426px;
+}
+.video2 video{
+    position: relative;
+    left: -155px;
+    top: 74px;
+    width: 272px;
+}
+.space4 img{
+    width: 394px;
+    height: 53vh;
+    position: relative;
+    left: 67px;
+}
+.head6{
+    position: relative;
+    top: -375px;
+    left: -218px;
+    font-size: 9px;
+    white-space: nowrap;
+}
+.head6 h1{
+    white-space: nowrap;
+    font-size: 26px;
+
+}
+.head7 h1{
+    font-size: 24px;
+    position: relative;
+    top: -180px;
+}
+.buttons button{
+    position: relative;
+    top: -208px;
+    padding-right: 340px;
+    font-size: larger;
+    white-space: nowrap;
+    height: 9vh;
+}
+.head8 input{
+    width: 236px;
+    height: 6vh;
+    position: relative;
+    left: -7px;
+}
+.head8 button{
+    position: relative;
+    left: 117px;
+    top: 29px;
+    height: 5vh;
+    width: 100px;
+    font-size: small;
+}
+.line2{
+    position: relative;
+    top: -62px;
+    width: 578px;
+}
+.head8{
+    position: relative;
+    top: -195px;
+}
+.space6{
+     
+    flex-direction: column;
+
+}
+.lists{
+    position: relative;
+    left: -22px;
+    gap: 72px;
+}    
+.img2{
+    height: 10vh;
+    width: 100px;
+}
+.select2{
+    width: 164px;
+    margin-left: auto;
+    position: relative;
+    left: -125px;
+}.video2{
+    width: 86px;
+    height: 10px;
+}
+.content{
+    width: fit-content;
+}
+.head9 p{
+    position: relative;
+    left: 97px;
+    bottom: 160px;
+}
+p.p2{
+    position: relative;
+    left: 31px;
+}
+
+}
+
+
+
+
+
+
+    
+
+
+
+
